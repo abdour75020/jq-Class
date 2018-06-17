@@ -1,0 +1,163 @@
+h1{
+    text-align: center;
+}
+#canvas{
+   border: 1px solid; width: 600px; height: 600px;
+   margin-top: 1%;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+#bouton
+{
+	text-align: center;
+	align-items: center;
+}
+
+#honrizontal
+{
+	
+	height: 600px;
+
+
+}
+
+.colonne{
+	
+	height: 120.2px;
+	
+	display: flex;
+}
+.return{
+	
+	 flex:1;
+	 text-align: center;
+	
+}
+
+
+.ligne{
+	flex: 1;
+	
+	
+	
+}
+
+#bas
+{
+	height: 116.8px;
+	display: flex;
+}
+
+.circleBase {
+    border-radius: 50%;
+   
+}
+.type1 {
+    width: 80%;
+    height: 80%;
+    background: white;
+    border: 1px solid blue;
+    justify-content:  center;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.carre{
+    width: 80%;
+    height: 80%;
+    background: white;
+    border: 1px solid red;
+    justify-content:  center;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.diamond{
+width: 60%;
+    height: 60%;
+    background: white;
+    border: 1px solid purple;
+    justify-content:  center;
+    text-align: center;
+    margin: 16% auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+}
+
+.blue
+{
+	background-color: blue;
+}
+
+.purple
+{
+	background-color: purple;
+}
+.red
+{
+	background-color: red;
+}
+
+.red1
+{
+	background-color: red;
+}
+
+.red2
+{
+	background-color: red;
+}
+
+.red3
+{
+	background-color: red;
+}
+
+.red4
+{
+	background-color: red;
+}
+
+.red5
+{
+	background-color: red;
+}
+
+.red6
+{
+	background-color: red;
+}
+
+
+.blue2
+{
+ background-color: blue;
+}
+
+.blue3
+{
+ background-color: blue;
+}
+.blue4
+{
+ background-color: blue;
+}
+.blue5
+{
+ background-color: blue;
+}
+.blue6
+{
+ background-color: blue;
+}
+.blue7
+{
+ background-color: blue;
+}
+
+.purple2
+{
+	background-color: purple;
+}

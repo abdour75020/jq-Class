@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="deco.css">
+     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+    </head>
+    <body>
+
+    <div class="container">
+
+    <h1>Exo des class en Jquery</h1>
+
+   <div id="bouton">
+   <button type="button" class="btn btn-outline-danger" id="bRouge">Couleur</button>
+
+   <button type="button" class="btn btn-outline-info" id="bJaune">Pas Couleur</button>
+ </div>
+    <div id="canvas" >
+        <div id="honrizontal">
+
+            <div  class = "colonne 1" >
+
+            <div class = "ligne">
+                  <div class="carre " id="carre1" ></div>
+
+                  </div>
+
+                  <div class = "ligne">
+                    <div class="circleBase type1  alinea1 " id="cercle1" ></div>
+                  </div>
+
+                  <div class = "ligne">
+                   <div class="circleBase type1  alinea1 alinea3" id="cercle2"></div>
+
+                  </div>
+
+                                
+                  <div class = "ligne">
+                    <div class="circleBase type1 alinea1 " id="cercle3"></div>
+                    
+                  </div>
+
+
+                  <div class = "return">
+                
+                   <div class="circleBase type1 alinea1 " id="cercle4"></div>
+
+                  </div>
+
+                
+            </div>
+
+            <div class = "colonne 2">
+
+                 <div class = "ligne">
+                
+                  <div class="circleBase type1  alinea2 " id="cercle5" ></div>
+
+                  </div>
+
+                  <div class = "ligne">
+                  
+                  <div class="carre " id="carre2"></div>
+                  
+                  </div>
+
+                  <div class = "ligne">
+                
+                  <div class="circleBase type1 alinea2 alinea3 " id="cercle6"></div>
+                  
+                  </div>
+
+                                
+                  <div class = "ligne">
+                
+                  <div class="circleBase type1 alinea2 " id="cercle7"></div>
+
+                  </div>
+
+
+                  <div class = "return">
+                
+                  <div class="circleBase type1 alinea2 " id="cercle8"></div>
+
+                  
+                  </div>
+                
+            </div>
+
+            <div class = "colonne 3">
+
+                         <div class = "ligne">
+                
+                     <div class="circleBase type1  alinea3" id="cercle9"></div>
+
+                  </div>
+
+                  <div class = "ligne">
+
+                    <div class="circleBase type1 alinea3 " id="cercle10"></div>
+                
+                  
+                  </div>
+
+                  <div class = "ligne">
+                  
+                  <div class ="diamond"></div>
+                  
+                  </div>
+
+                                
+                  <div class = "ligne">
+                
+                <div class="circleBase type1 alinea3 " id="cercle11"></div>
+                  
+                  </div>
+
+
+                  <div class = "return">
+                
+                <div class="circleBase type1 alinea3 " id="cercle12"></div>
+                  
+                  </div>
+
+
+                
+            </div>
+
+            <div class = "colonne 4">
+
+                         <div class = "ligne">
+                
+                <div class="circleBase type1 alinea4 " id="cercle13"></div>
+                  
+                  </div>
+
+                  <div class = "ligne">
+                
+                    <div class="circleBase type1 alinea4 " id="cercle14"></div>
+                  
+                  </div>
+
+                  <div class = "ligne">
+                
+                <div class="circleBase type1 alinea3 alinea4 " id="cercle15"></div>
+                  
+                  </div>
+
+                                
+                  <div class = "ligne">
+
+                    <div class="carre" id="carre3"></div>
+                
+                  
+                  </div>
+
+
+                  <div class = "return">
+                
+                <div class="circleBase type1 alinea4 " id="cercle16"></div>
+                  
+                  </div>
+                
+            </div>
+
+
+                 <div id="bas" id="5">
+                     
+
+                      <div class = "ligne">
+                
+                  <div class="circleBase type1 alinea5 " id="cercle17"></div>
+
+                  </div>
+
+                  <div class = "ligne">
+                
+                  <div class="circleBase type1 alinea5 " id="cercle18"></div>
+
+                  </div>
+
+                  <div class = "ligne">
+                <div class="circleBase type1 alinea3 alinea5 " id="cercle19"></div>
+                  
+                  </div>
+
+                                
+                  <div class = "ligne">
+                
+                  <div class="circleBase type1 alinea5 " id="cercle20"></div>
+
+                  </div>
+
+
+                  <div class = "return">
+                
+                  <div class="carre " id="carre4"></div>
+                  
+                  </div>
+
+
+                 </div>
+
+        
+            
+        </div>
+
+
+                  
+
+    </div>
+    </div>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script> 
+    <script src="index.js"></script>
+    </body>
+
+
+    
+    </html>
